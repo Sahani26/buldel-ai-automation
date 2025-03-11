@@ -94,5 +94,30 @@
 .container .mob-logo a{
  padding: 0;
 }
+h3.widget-title.text-light.title {
+    background-color: #fecb34;
+    padding: 10px 5px;
+    color: #000 !important;
+    font-weight: 600;
+    margin-bottom:0;
+    cursor: pointer;
+}
+.footer ul{
+    display: none;
+}
+.footer .pb-2{
+    margin-bottom: 0 !important;
+}
+.footer ul.widget-list.list{
+    background-color: #fff;
+}
+.footer li a{
+   color: #000 !important;
+   padding:2px 5px;
+}
+.footer li a:hover{
+    color: #fff !important;
 
+    background-color: #003769;
+ }
 }
