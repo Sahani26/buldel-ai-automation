@@ -1,0 +1,98 @@
+.main-top {
+    background-image: url("../img-2/home-banner-bg-image.jpg");
+    position: relative;
+}
+
+.robot-main {
+    position: absolute;
+    content: "";
+
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    left: 0;
+}
+
+.robot-mian-right {
+    position: absolute;
+    content: "";
+
+    height: 60%;
+
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+}
+
+
+.robot-photo {
+    background-image: url("../img-2/robote.png");
+    background-repeat: no-repeat;
+    width: 675px;
+    height: 100%;
+    background-size: cover;
+}
+
+.robot-photo-right {
+    background-image: url("../img-2/Home-bg-image.png");
+    background-repeat: no-repeat;
+    width: 675px;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.btn-primary {
+    color: #000 !important;
+}
+
+.univercity img.d-block.mx-auto{
+    width: 120px;
+    height: 120px;
+}
+
+.college-project img.card-img-top {
+    min-height: 280px;
+    max-height: 280px;
+}
+.over-text{
+    position: relative;
+    z-index: 9;
+}
+.download_app{
+    /* background-color: #ffcb36 !important; */
+    background-color: #DBEDEF !important;
+    background-image: none !important;
+}
+
+.download_app h2,.download_app p{
+    color: #003769 !important;
+    font-weight: 600;
+}
+
+@media (max-width:600px){
+    .robot-mian-right  {
+        display: none;
+    }
+    .robot-main {
+        height: 140px;
+        bottom: 0 !important;
+        top: auto;
+        transform: none;
+    }
+
+.robot-photo {
+
+    width: 175px;
+    height: 100%;
+
+}
+.container .mob-logo img{
+    width: 125px;
+}
+.container .mob-logo a{
+ padding: 0;
+}
+
+}
