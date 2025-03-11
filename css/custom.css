@@ -225,3 +225,6 @@ border-color: #003769;
     a.download-app-link {
         width: 115px;
     }
+   .college-project .card-body.py-4.text-center {
+        min-height: 112px;
+    }
